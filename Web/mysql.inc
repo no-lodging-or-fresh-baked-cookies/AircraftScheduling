@@ -241,6 +241,11 @@ function sql_syntax_caseless_contains($fieldname, $s)
 // still be able to access the error text.
 global $db_c;
 
+// PHP 8 defaults to throwing exceptions on mysqli errors. Restore the
+// legacy warning-based behaviour so that existing error-checking code
+// (return -1 on failure) continues to work.
+mysqli_report(MYSQLI_REPORT_OFF);
+
 if (empty($db_nopersist))
 	$db_c = mysqli_connect("p:".$db_host, $db_login, $db_password);
 else

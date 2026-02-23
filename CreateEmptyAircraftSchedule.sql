@@ -79,6 +79,7 @@ CREATE TABLE `AircraftScheduling_aircraft` (
   `Oil_Type` varchar(50) default NULL,
   `WB_Fields` text,
   `Cleared_By` varchar(10) default NULL,
+  `TrackSquawks` int(11) NOT NULL default '1',
   PRIMARY KEY  (`aircraft_id`),
   UNIQUE KEY `n_number` (`n_number`)
 ) ENGINE=InnoDB AUTO_INCREMENT=36 ;
