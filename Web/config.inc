@@ -345,7 +345,10 @@
 #                                          checkout sheet.
 #        2.48   Mar 28, 2021    JCovington Updates to support PHP version 8.
 #        2.49   May 13, 2021    JCovington Correct problems with updates to PHP version 8.
-#   
+#        2.50   Feb 22, 2026    SCovington Data integrity improvements: InnoDB migration,
+#                                          transactions, foreign keys, mutex locking, and
+#                                          race condition fixes.
+#
 #   Items to do:
 #   1) Update other language files to match the lang.en file.
 #   2) Only session authorization type has been developed and tested.
@@ -353,7 +356,7 @@
 ###############################################################################
 
 # version number
-$AircraftScheduling_version = "AircraftScheduling 2.49 May 13, 2021";
+$AircraftScheduling_version = "AircraftScheduling 2.50 Feb 22, 2026";
 
 ###################
 # Database settings
