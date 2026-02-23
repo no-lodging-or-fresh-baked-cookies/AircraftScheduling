@@ -80,6 +80,12 @@ CREATE TABLE `AircraftScheduling_aircraft` (
   `WB_Fields` text,
   `Cleared_By` varchar(10) default NULL,
   `TrackSquawks` int(11) NOT NULL default '1',
+  `ICAO_Equipment_Codes` varchar(50) default 'SBG',
+  `ICAO_Wake_Turb` varchar(10) default 'L',
+  `ICAO_Number_Aircraft` int(11) default '1',
+  `ICAO_Flight_Type` varchar(10) default 'G',
+  `ICAO_ADSB_Type` varchar(10) default 'N',
+  `ICAO_Transponder` varchar(10) default 'C',
   PRIMARY KEY  (`aircraft_id`),
   UNIQUE KEY `n_number` (`n_number`)
 ) ENGINE=InnoDB AUTO_INCREMENT=36 ;
