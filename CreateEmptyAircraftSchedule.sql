@@ -31,9 +31,9 @@ CREATE TABLE `AircraftScheduling_aircraft` (
   `max_gross` double default NULL,
   `year` smallint(6) default NULL,
   `code_id` int(11) default '0',
-  `make_id` int(11) NOT NULL default '0',
-  `model_id` int(11) NOT NULL default '0',
-  `resource_id` int(11) NOT NULL default '0',
+  `make_id` int(11) default NULL,
+  `model_id` int(11) default NULL,
+  `resource_id` int(11) default NULL,
   `description` text,
   `ifr_cert` tinyint(1) default '0',
   `min_pilot_cert` int(11) default '0',
@@ -856,3 +856,62 @@ CREATE TABLE `Squawks` (
   KEY `KeyCode` (`KeyCode`)
 ) ENGINE=InnoDB;
 
+# --------------------------------------------------------
+
+#
+# Foreign key constraints
+#
+
+# entry → resource (CASCADE: deleting a resource removes its schedule entries)
+ALTER TABLE `AircraftScheduling_entry`
+  ADD CONSTRAINT `fk_entry_resource`
+  FOREIGN KEY (`resource_id`) REFERENCES `AircraftScheduling_resource` (`resource_id`)
+  ON DELETE CASCADE;
+
+# entry → repeat (SET NULL: deleting a repeat record marks entries as non-repeating)
+ALTER TABLE `AircraftScheduling_entry`
+  ADD CONSTRAINT `fk_entry_repeat`
+  FOREIGN KEY (`repeat_id`) REFERENCES `AircraftScheduling_repeat` (`repeat_id`)
+  ON DELETE SET NULL;
+
+# aircraft → make (SET NULL: deleting a make clears the reference)
+ALTER TABLE `AircraftScheduling_aircraft`
+  ADD CONSTRAINT `fk_aircraft_make`
+  FOREIGN KEY (`make_id`) REFERENCES `AircraftScheduling_make` (`make_id`)
+  ON DELETE SET NULL;
+
+# aircraft → model (SET NULL)
+ALTER TABLE `AircraftScheduling_aircraft`
+  ADD CONSTRAINT `fk_aircraft_model`
+  FOREIGN KEY (`model_id`) REFERENCES `AircraftScheduling_model` (`model_id`)
+  ON DELETE SET NULL;
+
+# aircraft → resource (SET NULL: disabling scheduling clears the reference)
+ALTER TABLE `AircraftScheduling_aircraft`
+  ADD CONSTRAINT `fk_aircraft_resource`
+  FOREIGN KEY (`resource_id`) REFERENCES `AircraftScheduling_resource` (`resource_id`)
+  ON DELETE SET NULL;
+
+# instructors → person (CASCADE: deleting a person removes instructor record)
+ALTER TABLE `AircraftScheduling_instructors`
+  ADD CONSTRAINT `fk_instructors_person`
+  FOREIGN KEY (`person_id`) REFERENCES `AircraftScheduling_person` (`person_id`)
+  ON DELETE CASCADE;
+
+# pilot_certificates → person (CASCADE)
+ALTER TABLE `AircraftScheduling_pilot_certificates`
+  ADD CONSTRAINT `fk_pilotcert_person`
+  FOREIGN KEY (`pilot_id`) REFERENCES `AircraftScheduling_person` (`person_id`)
+  ON DELETE CASCADE;
+
+# pilot_certificates → certificates (CASCADE)
+ALTER TABLE `AircraftScheduling_pilot_certificates`
+  ADD CONSTRAINT `fk_pilotcert_certificate`
+  FOREIGN KEY (`certificate_id`) REFERENCES `AircraftScheduling_certificates` (`certificate_id`)
+  ON DELETE CASCADE;
+
+# resource → schedulable (CASCADE: deleting a schedulable type removes resources)
+ALTER TABLE `AircraftScheduling_resource`
+  ADD CONSTRAINT `fk_resource_schedulable`
+  FOREIGN KEY (`schedulable_id`) REFERENCES `AircraftScheduling_schedulable` (`schedulable_id`)
+  ON DELETE CASCADE;
