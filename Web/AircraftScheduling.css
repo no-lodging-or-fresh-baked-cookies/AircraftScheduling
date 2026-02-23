@@ -1,0 +1,194 @@
+ /* $MVD$:color("18","f0d5a2","Head1","0") */
+ /* $MVD$:color("19","ed9564","Cornflower Blue","0") */
+ /* $MVD$:color("20","e22b8a","Blue Violet","0") */
+ /* $MVD$:color("21","f9ebd4","D4ebf9","0") */
+ /* $MVD$:color("22","d6e9d8","d8e9d6","0") */
+ /* $MVD$:color("23","79f8fb","tw-yellow","0") */
+ /* $MVD$:color("24","d4d4d4","d4d4d4","1") */
+ /* $MVD$:color("25","ffc082","82C0FF","0") */
+ /* $MVD$:fontset("Verdana","Verdana") */
+
+BODY {color:black; font-size: 10pt; font-family:arial,sans-serif;
+background-color:#ffffed}
+ .mvd-BODY { background-color : white;}
+
+A:link {color:#5B69A6; font-weight: bold; text-decoration: none}
+A:visited {color:#5B69A6; font-weight: bold; text-decoration: none}
+A:hover {color:red; text-decoration:underline}
+
+H1 { font-family : "Verdana,sans-serif";
+  font-variant : normal;
+  font-weight : bold;
+  font-size : 16.0pt;
+  background-color : #82C0FF;
+  color : black;
+  padding : 4.0pt;}
+    .mvd-H1 { font-family : "Verdana";
+           font-variant : normal;
+           font-weight : bold;
+           font-size : 12.0pt;
+           background-color : #82C0FF;
+           color : black;
+           padding : 4.0pt;}
+H2 { font-family : "Verdana,sans-serif";
+  font-weight : bold;
+  font-size : 14.0pt;
+  color : black;}
+    .mvd-H2 { font-family : "Verdana";
+           font-weight : bold;
+           font-size : 12.0pt;
+           color : black;}
+H3 { font-family : "Verdana,sans-serif";
+  font-weight : bold;
+  font-size : 14.0pt;
+  color : black;}
+    .mvd-H3 { font-family : "Verdana";
+           font-weight : bold;
+           font-size : 10.0pt;
+           color : black;}
+H4 { font-family : "Verdana";
+  font-weight : normal;
+  font-size : 10.0pt;
+  color : black;}
+    .mvd-H4 { font-family : "Verdana";
+           font-weight : normal;
+           font-size : 10.0pt;
+           color : black;}
+H5 { font-family : "Verdana";
+  font-weight : normal;
+  font-size : 10.0pt;
+  color : black;}
+    .mvd-H5 { font-family : "Verdana";
+           font-weight : normal;
+           font-size : 10.0pt;
+           color : black;}
+H6 { font-family : "Verdana";
+  font-weight : normal;
+  font-size : 10.0pt;
+  color : black;}
+    .mvd-H6 { font-family : "Verdana";
+           font-weight : normal;
+           font-size : 10.0pt;
+           color : black;}
+
+TD {font-size:10pt; font-family:arial,sans-serif; border-width:1;
+vertical-align:top}
+TD.header {color:black; font-family:verdana,sans-serif; border-width:0;
+background-color:#ffffdd; font-size:26pt}
+TD.CR { vertical-align: middle; text-align: right}
+TD.CL { vertical-align: middle; text-align: left}
+TD.CC { vertical-align: middle; text-align: center}
+TD.BR { vertical-align: baseline; text-align: right}
+TD.BL { vertical-align: baseline; text-align: left}
+TD.BC { vertical-align: baseline; text-align: center}
+TD.TR { vertical-align: top; text-align: right}
+TD.TL { vertical-align: top; text-align: left}
+TD.TC { vertical-align: top; text-align: center}
+
+TD.unallocated {color:gray}
+TD.allocated {color:black}
+A:link.unallocated {color:#9BA9E6}
+A:link.allocated {color:#5B69A6}
+
+A:hover.unallocated {color:red}
+A:hover.allocated {color:red}
+
+A.blue {color:blue}
+A:visited.blue {color:blue}
+A:hover.blue {color:red}
+
+TH {color:#eeeeee; font-size:10pt; font-family:verdana,sans-serif;
+background-color:#333333;
+border-width:1; border-color:black; vertical-align:top}
+TD.banner {vertical-align:middle; background-color:#C0E0FF}
+
+TD.blue {background-color:#F0F0FF}
+TD.red  {background-color:#FFF0F0}
+TD.green {background-color:#DDFFDD}
+TD.A {background-color:#FFCCFF}
+TD.B {background-color:#99CCCC}
+TD.C {background-color:#FF9999}
+TD.D {background-color:#FFFF99}
+TD.E {background-color:#C0E0FF}
+TD.F {background-color:#FFCC99}
+TD.G {background-color:#FF6666}
+TD.H {background-color:#66FFFF}
+TD.I {background-color:#DDFFDD}
+TD.J {background-color:#CCCCCC}
+TD.white {background-color:#FFFFFF}
+
+TD.calendar {border:0px; font-size: 6pt}
+TD.calendarHeader {border:0px; font-size: 10pt}
+TD.calendarToday {border:0px; font-size: 6pt; font-weight:bold; background-color:#C0E0FF}
+
+.CellHeader {background-color:#C0E0FF; color:#5B69A6; text-align:center; font-family:Arial; font-size:small; font-weight:bold; border-width:1px;}
+.CellContent {text-align:left; padding-left:15px; padding-right:15px; padding-top:10px;  border-style:inset; border-width:1px}
+.CellMessage {padding-left:20px; padding-right:20px; }
+.CellDescription {padding-left:10px; padding-right:10px; text-align:right; font-weight:bold;}
+.CellInput {padding-left:10px; padding-right:10px; text-align:left; }
+.StdText {font-family:Arial; font-size:x-small; font-weight:normal;}
+
+.sitename
+{font-size: 18px;
+font-style: normal;
+font-weight: bold;
+text-transform: none;
+color:#ffffff;
+position: absolute;
+left:30;
+top:12}
+
+TD.month {font-size: 8pt}
+.monthday {font-size: 12pt}
+
+ P { font-family : "Verdana";
+     font-size : 10.0pt;
+     color : black;
+     margin-top : 4.0pt;}
+ .mvd-P { font-family : "Verdana";
+          font-size : 10.0pt;
+          color : black;
+          margin-top : 4.0pt;}
+ P.Note { font-family : "Verdana";
+          font-weight : normal;
+          font-size : 10.0pt;
+          background-color : #D4D4D4;
+          text-align : left;
+          color : black;
+          border : none;
+          margin-left : 6.0pt;
+          margin-right : 12.0pt;
+          padding : 4.0pt;}
+ .mvd-P-Note { font-family : "Verdana";
+               font-weight : normal;
+               font-size : 10.0pt;
+               background-color : #D4D4D4;
+               text-align : left;
+               color : black;
+               margin-left : 6.0pt;
+               margin-right : 12.0pt;
+               padding : 4.0pt;}
+ CITE.expandspot { font-style : normal;
+                   color : green;
+                   cursor: hand;}
+ .mvd-CITE-expandspot { font-style : normal;
+                        color : green;
+                        cursor: hand;}
+ DFN.collapsed { font-style : italic;
+                 font-weight : normal;
+                 display :                  'none';
+                 color : red;}
+ .mvd-DFN-collapsed { font-style : italic;
+                      font-weight : normal;
+                      display :                  'none';
+                      color : red;}
+ DFN.expanded { font-style : italic;
+                font-weight : normal;
+                color : red;}
+ .mvd-DFN-expanded { font-style : italic;
+                     font-weight : normal;
+                     color : red;}
+ EM.dropspot { color : green;
+               cursor: hand;}
+ .mvd-EM-dropspot { color : green;
+                    cursor: hand;}

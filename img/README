@@ -1,0 +1,11 @@
+Only put jpg images here so the image.php script can resize them as needed.
+
+NAMING CONVENTION:
+
+Aircraft:  n_number.jpg is a picture of the aircraft from the outside.
+           n_number_panel.jpg is a picture of the instrument panel/interior.
+
+Instructor:  FirstnameLastname.jpg is whatever picture you want of the instructor.
+
+BIG BIG NOTE!!!!  THIS DIRECTORY MUST BE WRITABLE BY YOUR WEB SERVER SO YOU CAN
+                  UPLOAD IMAGES INTO IT!!!

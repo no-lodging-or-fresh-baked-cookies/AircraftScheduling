@@ -1,0 +1,261 @@
+<?php
+// This file based on Meeting Room Booking System http://mrbs.sourceforge.net
+// It has been modified by Matt Barclay (mbarclay@users.sourceforge.net on 
+// 12/19/2001 and released under the terms of the GNU Public License
+
+// AircraftScheduling created from OpenFBO by Jim Covington. OpenFBO aspires to be
+// a lot more than AircraftScheduling so I renamed it to keep from causing confusion.
+
+# $Id: lang.en,v 1.7 2001/12/20 07:06:57 mbarclay Exp $
+
+# This file contains PHP code that specifies language specific strings
+# The default strings come from lang.en, and anything in a locale
+# specific file will overwrite the default. This is a US/UK English file.
+#
+# This file is PHP code. Treat it as such.
+
+# The charset to use in "Content-type" header
+$lang["charset"]            = "iso-8859-1";
+
+# Used in style.inc
+$lang["AircraftScheduling"]               = "AircraftScheduling";
+
+# Used in functions.inc
+$lang["search_label"]       = "Search:";
+$lang["report"]             = "Report";
+$lang["admin"]              = "Admin";
+$lang["office"]             = "Admin";
+$lang["maintenance"]        = "Admin";
+$lang["help"]               = "Help";
+$lang["logon"]              = "Sign In";
+$lang["logoff"]             = "Sign Out";
+$lang["welcome"]            = "Welcome ";
+$lang["NotLogon"]           = "Not Signed In";
+$lang["forgot_password"]    = "I forgot my password!";
+$lang["notices"]            = "Notices";
+$lang["CheckCurrency"]      = "Check<BR>Currency";
+$lang["CheckCharges"]       = "Display<BR>Charges";
+$lang["AircraftCheckout"]   = "Aircraft Checkout";
+$lang["AircraftCheckin"]    = "Aircraft Checkin";
+$lang["ModifyFlights"]      = "Modify Flights";
+$lang["ExportUserData"]     = "Export";
+
+# Used in day.php
+$lang["bookingsfor"]        = "Bookings for";
+$lang["bookingsforpost"]    = ""; # Goes after the date
+$lang["areas"]              = "Areas";
+$lang["resources"] 	    	= "Resources";
+$lang["daybefore"]          = "Go To Day Before";
+$lang["dayafter"]           = "Go To Day After";
+$lang["gototoday"]          = "Go To Today";
+$lang["thismonth"]          = "This Month";
+$lang["goto"]               = "goto";
+
+# Used in trailer.inc
+$lang["viewday"]            = "View Day";
+$lang["viewweek"]           = "View Week";
+$lang["viewmonth"]          = "View Month";
+$lang["ppreview"]           = "View Printable Version";
+
+# Used in AircraftCheckout.php
+$lang["CancelCheckout"]     = "Are you sure you want to cancel checking out this airplane?";
+
+# Used in printing reports
+$lang["CancelPrint"]        = "Are you sure you want to cancel the print?";
+
+# Used in exporting users
+$lang["CancelExport"]       = "Are you sure you want to cancel the export?";
+
+# Used in AircraftCheckin.php
+$lang["CancelCheckin"]     = "Are you sure you want to cancel checking in this airplane?";
+
+# Used in AddModifySquawks.php
+$lang["CancelSquawk"]     = "Are you sure you want to cancel changes to this squawk?";
+
+# Used in AddModifyFlights.php
+$lang["CancelFlight"]     = "Are you sure you want to cancel changes to this flight?";
+$lang["DeleteFlight"]     = "Are you sure you want to delete this flight?";
+
+# Used in AddModifyCategories.php
+$lang["CancelCategory"]     = "Are you sure you want to cancel changes to this category?";
+$lang["DeleteCategory"]     = "Are you sure you want to delete this category?";
+
+# Used in AddModifyCharges.php
+$lang["CancelCharge"]     = "Are you sure you want to cancel changes to this charge?";
+$lang["DeleteCharge"]     = "Are you sure you want to delete this charge?";
+
+# Used in AddModifyInventory.php
+$lang["CancelInventory"]  = "Are you sure you want to cancel changes to this inventory item?";
+$lang["DeleteInventory"]  = "Are you sure you want to delete this inventory item?";
+
+# Used in AddModifyAircraft.php
+$lang["CancelAircraft"]     = "Are you sure you want to cancel changes to this aircraft?";
+$lang["DeleteAircraft"]     = "Are you sure you want to delete this aircraft?";
+
+# Used in AddModifyMember.php
+$lang["CancelMember"]       = "Are you sure you want to cancel changes to this user?";
+$lang["DeleteMember"]       = "Are you sure you want to delete this user?";
+
+# Used in AircraftScheduling_config.php
+$lang["CancelConfig"]       = "Are you sure you want to cancel changes?";
+
+# Used in GetSafetyMeetingDates.php
+$lang["CancelSafety"]       = "Are you sure you want to cancel changes?";
+
+# Used in edit_entry.php
+$lang["addentry"]           = "Add Entry";
+$lang["editentry"]          = "Edit Entry";
+$lang["addstandby"]         = "Standby Request";
+$lang["editseries"]         = "Edit Series";
+$lang["namebooker"]         = "Name:";
+$lang["nameinstructor"]     = "Instructor:";
+$lang["phonenumber"]        = "Phone Number:";
+$lang["fulldescription"]    = "Full Description:";
+$lang["date"]               = "Date:";
+$lang["start_date"]         = "Start Time:";
+$lang["end_date"]           = "End Time:";
+$lang["time"]               = "Time";
+$lang["duration"]           = "Duration:";
+$lang["estcost"]            = "Estimated Cost:";
+$lang["hourlyrate"]         = "Hourly Rate:";
+$lang["rentalfee"]          = "Fee:";
+$lang["seconds"]            = "seconds";
+$lang["minutes"]            = "minutes";
+$lang["hours"]              = "hours";
+$lang["days"]               = "days";
+$lang["weeks"]              = "weeks";
+$lang["years"]              = "years";
+$lang["all_day"]            = "All day";
+$lang["type"]               = "Type:";
+$lang["internal"]           = "Internal";
+$lang["external"]           = "External";
+$lang["save"]               = "Save";
+$lang["register"]           = "New User";
+$lang["rep_type"]           = "Repeat Type:";
+$lang["rep_type_0"]         = "None";
+$lang["rep_type_1"]         = "Daily";
+$lang["rep_type_2"]         = "Weekly";
+$lang["rep_type_3"]         = "Monthly";
+$lang["rep_type_4"]         = "Yearly";
+$lang["rep_type_5"]         = "Monthly, corresponding day";
+$lang["rep_end_date"]       = "Repeat End Date:";
+$lang["rep_rep_day"]        = "Repeat Day:";
+$lang["rep_for_weekly"]     = "(for weekly)";
+$lang["rep_freq"]           = "Frequency:";
+
+# Used in CheckCurrency.php
+$lang["OK"]               = "OK";
+$lang["CurrencyName"]     = "Flight Currency for";
+
+# Used in ExportUserData.php
+$lang["ExportName"]       = "Export Information for";
+$lang["ExportNameTo"]     = "&nbsp;to&nbsp;";
+
+# Used in DisplayMemberCharges.php
+$lang["ChargesName"]     = "Charges for";
+$lang["ChargesMonths"]   = "For month";
+
+# Used in view_entry.php
+$lang["description"]        = "Description:";
+$lang["room"]               = "Item:";
+$lang["createdby"]          = "Created By:";
+$lang["createtime"]         = "Created On:";
+$lang["lastupdate"]         = "Last Updated:";
+$lang["deleteentry"]        = "Delete Entry";
+$lang["deleteseries"]       = "Delete Series";
+$lang["confirmdel"]         = "Are you sure you want to delete this entry?";
+$lang["StandbyRequest"]     = "Add Standby Request";
+$lang["returnprev"]         = "Return to previous page";
+
+# Used in edit_entry_handler.php
+$lang["error"]              = "Error";
+$lang["sched_conflict"]     = "Scheduling Conflict";
+$lang["conflict"]           = "The new booking will conflict with the following entry(s):";
+$lang["too_may_entrys"]     = "The selected options will create too many entries.<BR>Please use different options!";
+$lang["InstructorError"]    = "The selected instructor was not found. Please retry scheduling the entry.";
+$lang["returncal"]          = "Return to calendar view";
+
+# Authentication stuff
+$lang["accessdenied"]       = "Access Denied";
+$lang["norights"]           = "You do not have access rights to modify this item.";
+$lang["notloggedin"]        = "If you are not signed in, select <A HREF='logon.php?\$_SERVER[QUERY_STRING]'>Sign In</A> the top bar. If you are signed in, you do not have sufficient privilege for this operation.";
+$lang["loggintimeout"]      = "You were idle too long. Sign back in to continue.";
+$lang["returnlogin"]        = "Return to login screen";
+$lang["mustlog"]            = "You must be logged in to access this feature.";
+$lang["mustlogBeg"]         = "Go to the ";
+$lang["mustlogEnd"]         = " screen to enter your username and password to complete this action.";
+
+# Used in search.php
+$lang["invalid_search"]     = "Empty or invalid search string.";
+$lang["search_results"]     = "Search Results for:";
+$lang["nothing_found"]      = "No matching entries found.";
+$lang["records"]            = "Records ";
+$lang["through"]            = " through ";
+$lang["of"]                 = " of ";
+$lang["previous"]           = "Previous";
+$lang["next"]               = "Next";
+$lang["entry"]              = "Entry";
+$lang["tailnumber"]         = "Tail Number";
+$lang["resource_type"]      = "Type";
+$lang["resource_item"]      = "Resource Name";
+$lang["view"]               = "View";
+
+# Used in report.php
+$lang["report_on"]          = "Report on Schedules:";
+$lang["report_start"]       = "Report start date:";
+$lang["report_end"]         = "Report end date:";
+$lang["match_area"]         = "Match aircraft make:";
+$lang["match_room"]         = "Match aircraft model:";
+$lang["match_nnumber"]      = "Match aircraft number:";
+$lang["match_instructor"]   = "Match instructor name:";
+$lang["match_entry"]        = "Match name:";
+$lang["match_descr"]        = "Match full description:";
+$lang["include"]            = "Include:";
+$lang["report_only"]        = "Report only";
+$lang["summary_only"]       = "Summary only";
+$lang["report_and_summary"] = "Report and Summary";
+$lang["summarize_by"]       = "Summarize by:";
+$lang["sum_by_descrip"]     = "Name";
+$lang["sum_by_creator"]     = "Creator";
+$lang["entry_found"]        = "entry found";
+$lang["entries_found"]      = "entries found";
+$lang["summary_header"]     = "Summary of (Entries) Hours";
+$lang["total"]              = "Total";
+
+# Used in Journal_Report.php
+$lang["journal_report_on"]  = "Report on Journal Entries:";
+$lang["journal_report_start"] = "Report start date:";
+$lang["journal_report_end"] = "Report end date:";
+$lang["journal_match_entry"]= "Match username:";
+$lang["journal_report_only"]= "Report only";
+
+# Used in week.php
+$lang["weekbefore"]         = "Go To Week Before";
+$lang["weekafter"]          = "Go To Week After";
+$lang["gotothisweek"]       = "Go To This Week";
+
+# Used in month.php
+$lang["monthbefore"]        = "Go To Month Before";
+$lang["monthafter"]         = "Go To Month After";
+$lang["gotothismonth"]      = "Go To This Month";
+
+# Used in email_pass.php
+$lang["email_message"]	    = "Someone, hopefully you, requested your password to access the online scheduler." .
+			      "  Well, here it is: ";
+# Used in change_pass.php
+$lang["change"]        = "Change";
+$lang["password"]      = "Password";
+$lang["userinfo"]      = "User Info";
+
+# Used in AddModifyMember.php
+$lang["subject_user_enabled"] = " has changed the access for your online scheduling account.";
+$lang["user_enabled"] = "You may now add to the schedule for ";    
+$lang["user_disabled"] = "You may no longer add to the schedule for ";    
+
+# Used in {day week month}.php
+$lang["no_rooms_for_area"]  = "No items to display for this resource";
+
+# Used in edit_instructor.php
+$lang["confirmremove"] = "Are you sure\\nyou want to\\nremove this instructor?\\n\\n";
+
+?>

@@ -1,0 +1,190 @@
+<html>
+
+<head>
+<title>Aircraft Weight and Balance Fields</title>
+<meta name="GENERATOR" content="Microsoft FrontPage 3.0">
+</head>
+
+<body>
+
+<h1>Aircraft Weight and Balance Fields</h1>
+
+<p><img src="Help/DisplayAircraftScreen/AddAircraftScreen/AircraftWeightBalance_Files/Aircra4.jpg" width="375" height="478"
+alt="wpe1B.jpg (27228 bytes)"></p>
+
+<hr>
+
+<p style="mso-margin-top-alt: auto">The Aircraft Weight and Balance fields of the Add
+Aircraft Screen and the Modify Aircraft Screen are used for computing the weight and
+balance information for each aircraft. The following fields are provided: 
+
+<ul>
+  <li><p style="mso-margin-top-alt: auto">Aircraft Arms and Weights - defines the moment arms
+    and weights for the various stations on the aircraft:<ul>
+      <li><p style="mso-margin-top-alt: auto">Seat and Baggage Stations:<ul>
+          <li><p style="mso-margin-top-alt: auto">Station - the names for the allowable stations on
+            the aircraft.</p>
+          </li>
+          <li><p style="mso-margin-top-alt: auto">Arm &#150; the moment arm in inches of each station.</p>
+          </li>
+          <li><p style="mso-margin-top-alt: auto">Default Weight &#150; the default weight in pounds
+            of each station. This value will normally be zero unless the aircraft has something that
+            normally resides in this station, i.e. a radio installed in the luggage compartment.</p>
+          </li>
+        </ul>
+      </li>
+      <li><p style="mso-margin-top-alt: auto">Fuel Stations - the fuel stations are slightly
+        different since the pilot adds fuel by the gallon, not by the pound:<ul>
+          <li><p style="mso-margin-top-alt: auto">Arm - the moment arm in inches of each station for
+            the main and auxiliary tank.</p>
+          </li>
+          <li><p style="mso-margin-top-alt: auto">Normal &#150; the normal number of gallons of fuel
+            in the main tanks and the auxiliary fuel tanks. This value will usually be the fuel to the
+            tabs if the aircraft has tabs or to the top of the filler neck without tabs.</p>
+          </li>
+          <li><p style="mso-margin-top-alt: auto">Max - the maximum number of gallons of fuel in the
+            tank. This value will usually be the maximum usable fuel in the tank.</p>
+          </li>
+        </ul>
+      </li>
+      <li><p style="mso-margin-top-alt: auto">Aircraft Station: <ul>
+          <li><p style="mso-margin-top-alt: auto">Arm - the moment arm of the aircraft in inches.</p>
+          </li>
+          <li><p style="mso-margin-top-alt: auto">Empty - the weight of the empty aircraft in pounds.</p>
+          </li>
+          <li><p style="mso-margin-top-alt: auto">Max - the maximum allowable weight of the aircraft
+            in pounds.</p>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<p style="mso-margin-top-alt: auto" class="mvd-P-Note">Note: If a particular station is
+not needed, set the arm value to zero and the program will ignore that station in the
+calculations. 
+
+<ul>
+  <li><p style="mso-margin-top-alt: auto">Aircraft CG Envelope - defines the allowable
+    foreword and aft center of gravity limits for each particular weight of the aircraft.<ul>
+      <li><p style="mso-margin-top-alt: auto">Weight - the weight in pounds that the fore and aft
+        CG values apply to.</p>
+      </li>
+      <li><p style="mso-margin-top-alt: auto">Fore - the forward CG limit in inch-pounds for this
+        particular weight.</p>
+      </li>
+      <li><p style="mso-margin-top-alt: auto">Aft - the aft CG limit in inch-pounds for this
+        particular weight.</p>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<p style="mso-margin-top-alt: auto" class="mvd-P-Note">Note: If a particular weight is not
+needed, set the weight, fore and aft values to zero and the program will ignore that
+weight in the calculations.</p>
+
+<p>Example:</p>
+
+<p>Assume a Piper Arrow with the following weight and balance information (reference the
+Pilot's Operating Handbook for the values for your aircraft):</p>
+
+<blockquote>
+  <p style="margin-top: auto; margin-bottom: auto; padding-top: 0px; padding-bottom: 0px">Front
+  Seat Arm: 80.5 inches</p>
+  <p style="margin-top: auto; margin-bottom: auto; padding-top: 0px; padding-bottom: 0px">Back
+  Seat Arm: 118.1 inches</p>
+  <p style="margin-top: auto; margin-bottom: auto; padding-top: 0px; padding-bottom: 0px">Baggage
+  Area Arm: 142.8 inches</p>
+  <p style="margin-top: auto; margin-bottom: auto; padding-top: 0px; padding-bottom: 0px">Fuel
+  Arm and Capacity: 95.0 inches, 38.0 gallons (to tabs), 46.6 gallons (max usable)</p>
+  <p style="margin-top: auto; margin-bottom: auto; padding-top: 0px; padding-bottom: 0px">Aircraft
+  Arm and Weight: 85.3 inches, 1669.1 pounds empty, 2650 pounds max gross weight</p>
+</blockquote>
+
+<p>The CG envelop has the following graph:</p>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img
+src="Help/DisplayAircraftScreen/AddAircraftScreen/AircraftWeightBalance_Files/Aircra1.jpg" width="213" height="221"
+alt="wpe51.jpg (8737 bytes)"></p>
+
+<p>The following information would be filled in for the aircraft weight and balance
+fields: 
+
+<ul>
+  <li><p style="mso-margin-top-alt: auto">Aircraft Arms and Weights:</p>
+    <p style="mso-margin-top-alt: auto; margin-bottom: auto; padding-bottom: 0px">Front Seat
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 80.5 in&nbsp;&nbsp;&nbsp; 0 lbs.</p>
+    <p
+    style="mso-margin-top-alt: auto; margin-top: auto; margin-bottom: auto; padding-top: 0px; padding-bottom: 0px">Back
+    Seat 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 118.1 in &nbsp;&nbsp;&nbsp; 0 lbs.</p>
+    <p
+    style="mso-margin-top-alt: auto; margin-top: auto; margin-bottom: auto; padding-top: 0px; padding-bottom: 0px">Back
+    Seat 2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0.0 in&nbsp;&nbsp;&nbsp; 0 lbs.</p>
+    <p
+    style="mso-margin-top-alt: auto; margin-top: auto; margin-bottom: auto; padding-top: 0px; padding-bottom: 0px">Baggage
+    Area 1 142.8 in&nbsp;&nbsp;&nbsp; 0 lbs.</p>
+    <p
+    style="mso-margin-top-alt: auto; margin-top: auto; margin-bottom: auto; padding-top: 0px; padding-bottom: 0px">Baggage
+    Area 2&nbsp;&nbsp;&nbsp; 0.0 in &nbsp;&nbsp;&nbsp; 0 lbs.</p>
+    <p
+    style="mso-margin-top-alt: auto; margin-top: auto; margin-bottom: auto; padding-top: 0px; padding-bottom: 0px">Baggage
+    Area 3&nbsp;&nbsp;&nbsp; 0.0 in &nbsp;&nbsp;&nbsp; 0 lbs.</p>
+  </li>
+</ul>
+
+<ul>
+  <li><p style="mso-margin-top-alt: auto">Fuel Stations:</p>
+  </li>
+</ul>
+
+<p
+style="mso-margin-top-alt: auto; letter-spacing: normal; margin-bottom: auto; padding-bottom: 0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Fuel
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+95.0 in&nbsp;&nbsp;&nbsp; 38.0 gals&nbsp;&nbsp;&nbsp; 46.6 gals</p>
+
+<p
+style="mso-margin-top-alt: auto; letter-spacing: normal; margin-top: auto; padding-top: 0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Aux
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0.0 in&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0.0 gals 
+
+<ul>
+  <li><p style="mso-margin-top-alt: auto">Aircraft Station:</p>
+  </li>
+</ul>
+
+<p style="mso-margin-top-alt: auto">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Aircraft
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 85.3 in
+&nbsp;&nbsp;&nbsp; 1669.1 lbs.&nbsp;&nbsp;&nbsp; 2650 lbs. 
+
+<ul>
+  <li><p style="mso-margin-top-alt: auto">Aircraft CG Envelope:.</p>
+  </li>
+</ul>
+
+<p style="margin-bottom: auto; padding-bottom: 0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1400 lbs.&nbsp;&nbsp;&nbsp; 80.0 in/lbs. &nbsp;&nbsp;&nbsp; 93.0 in/lbs.</p>
+
+<p style="margin-top: auto; margin-bottom: auto; padding-top: 0px; padding-bottom: 0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1800 lbs.&nbsp;&nbsp;&nbsp; 80.0 in/lbs. &nbsp;&nbsp;&nbsp; 93.0 in/lbs.</p>
+
+<p style="margin-top: auto; margin-bottom: auto; padding-top: 0px; padding-bottom: 0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2300 lbs.&nbsp;&nbsp;&nbsp; 82.0 in/lbs. &nbsp;&nbsp;&nbsp; 93.0 in/lbs.</p>
+
+<p style="margin-top: auto; padding-top: 0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2650 lbs.&nbsp;&nbsp;&nbsp; 87.5 in/lbs. &nbsp;&nbsp;&nbsp; 93.0 in/lbs.</p>
+
+<p>In the above CG envelope, notice that the breaks in the curve are the only required
+entries. You can put as many points as desired up to the six maximum that the program
+allows. The program will extrapolate between points as necessary so that the only points
+required are where the fore and aft CG limits change for a particular weight.</p>
+
+<p><a href="DisplayHelpHTML.php?HelpHTMLFile=Help/DisplayAircraftScreen/AddAircraftScreen/AddAircraftScreen.htm">Back to the Add Aircraft Screen</a></p>
+
+<p><a href="DisplayHelpHTML.php?HelpHTMLFile=Help/DisplayAircraftScreen/ModifyAircraftScreen/ModifyAircraftScreen.htm">Back to the Modify Aircraft
+Screen</a></p>
+</body>
+</html>

@@ -1,0 +1,263 @@
+[Project ID]
+Signature=UE Proj: v.1
+[Project Information]
+Project Directory=
+Use Relative Directory=1
+Relative to Project File=1
+Project Wordfile=
+Project Start=DB070C0001001300060037003400000073
+Working Time=930503
+Include Sub Directories=1
+Project Tagfile=
+Filter=
+Create Tagfile=0
+[File View]
+Current Select=Project Files
+Scroll Position=0
+[Group]
+0=
+1=
+2=Help
+3=Help - Introduction
+4=Help - AircraftCheckinScreen
+5=Help - AircraftCheckoutScreen
+6=Help - DisplayAircraftScreen
+7=Help - DisplayCategoryScreen
+8=Help - DisplayChargeInformationScreen
+9=Help - DisplayFlightInformationScreen
+10=Help - DisplayInventoryScreen
+11=Help - DisplayMemberChargesScreen
+12=Help - UserManagementScreen
+13=Help - ExportDatabaseInformationScreen
+14=Help - UserCurrency
+15=Help - ModifyAircraftMakeModel
+16=Help - ProgramConfigurationScreen
+17=Help - PrintReports
+18=Help - SafetyMeetingDatesScreen
+19=Help - Admin
+20=Help - ChangeLoginNotice
+21=Help - ViewJournalEntries
+22=Help - InstructorManagement
+23=Help - LoginScreen
+24=Help - MainScreen
+25=Help - ReportScreen
+26=Help - ChangePassword
+27=Help - ChangeUserInformation
+[Files]
+0=.htaccess
+1=add_instructor.php
+2=add_instructor_handler.php
+3=AddModifyAircraft.php
+4=AddModifyCategories.php
+5=AddModifyCharges.php
+6=AddModifyFlights.php
+7=AddModifyInventory.php
+8=AddModifyMakeModel.php
+9=AddModifyMember.php
+10=AddModifySquawks.php
+11=admin.php
+12=adodb-time.inc.php
+13=AircraftCheckin.php
+14=AircraftCheckout.php
+15=AircraftScheduling.css
+16=AircraftScheduling_auth.inc
+17=AircraftScheduling_config.php
+18=AircraftScheduling_sql.inc
+19=auth_ext.inc
+20=auth_ip.inc
+21=auth_ldap.inc
+22=auth_nw.inc
+23=auth_session.inc
+24=calendar.inc
+25=change_pass.php
+26=change_user_info.php
+27=CheckCurrency.php
+28=class.phpmailer.php
+29=class.smtp.php
+30=class.stack.php
+31=CombinationLock.php
+32=config.inc
+33=CurrencyFunctions.inc
+34=DatabaseConstants.inc
+35=DatabaseFunctions.inc
+36=DateFunctions.inc
+37=day.php
+38=del_entry.php
+39=DisplayAircraft.php
+40=DisplayAircraftInfo.php
+41=DisplayCategories.php
+42=DisplayCharges.php
+43=DisplayFlights.php
+44=DisplayInstructor.php
+45=DisplayInstructorInfo.php
+46=DisplayInventory.php
+47=DisplayManagerMsg.php
+48=DisplayMemberCharges.php
+49=DisplayMembers.php
+50=edit_entry.php
+51=edit_entry_handler.php
+52=edit_instructor.php
+53=edit_notices.php
+54=email_pass.php
+55=functions.inc
+56=GetSafetyMeetingDates.php
+57=global_def.inc
+58=image.php
+59=index.php
+60=JAVALib.inc
+61=Journal_Report.php
+62=lang.de
+63=lang.en
+64=lang.es
+65=lang.fr
+66=lang.ja
+67=lang.nl
+68=lang.sv
+69=lang.zh-tw
+70=logoff.php
+71=logon.php
+72=month.php
+73=mysql.inc
+74=pgsql.inc
+75=PopCalendar.php
+76=PrintAircraftFaultInformation.php
+77=PrintAircraftInformation.php
+78=PrintDailyBillingInformation.php
+79=PrintDailyDARInformation.php
+80=PrintFunctions.inc
+81=PrintInventoryInformation.php
+82=PrintMemberInformation.php
+83=PrintMemberStatistics.php
+84=PrintMonthlyBillingInformation.php
+85=PrintMonthlySanityCheckInformation.php
+86=register.php
+87=report.php
+88=search.php
+89=SellInventory.php
+90=SiteSpecific.inc
+91=SquawkFrame.php
+92=SquawkFunctions.inc
+93=StandbyRequest.php
+94=StandbyRequestHandler.php
+95=StandbyRequestView.php
+96=StringFunctions.inc
+97=style.inc
+98=trailer.inc
+99=UserInformation.php
+100=view_entry.php
+101=week.php
+102=SellInventoryMultiple.php
+103=SellInventoryFunctions.inc
+104=ExportUserData.php
+[Files - Help]
+0=Help\TableOfContents.inc
+1=DisplayHelpHTML.php
+2=help.php
+3=Help\site_faq.inc
+4=Help\CurrencyRules.htm
+5=Help\NewSquawkScreen.htm
+6=Help\EditSquawks.htm
+7=Help\License.htm
+[Files - Help - Introduction]
+0=Help\Introduction\Introduction.htm
+[Files - Help - AircraftCheckinScreen]
+0=Help\AircraftCheckinScreen\AircraftCheckinScreen.htm
+1=Help\AircraftCheckinScreen\SquawkDataDisplay.htm
+2=Help\AircraftCheckinScreen\CheckinInformationFrame.htm
+3=Help\AircraftCheckinScreen\AircraftDataFrame.htm
+[Files - Help - DisplayAircraftScreen]
+0=Help\DisplayAircraftScreen\AddAircraftScreen\AircraftSquawkFields.htm
+1=Help\DisplayAircraftScreen\AddAircraftScreen\AircraftInformation.htm
+2=Help\DisplayAircraftScreen\AddAircraftScreen\AddAircraftScreen.htm
+3=Help\DisplayAircraftScreen\AddAircraftScreen\OwnerInformation.htm
+4=Help\DisplayAircraftScreen\AddAircraftScreen\FlightPlanInfomation.htm
+5=Help\DisplayAircraftScreen\AddAircraftScreen\AircraftWeightBalance.htm
+6=Help\DisplayAircraftScreen\DisplayAircraftScreen.htm
+7=Help\DisplayAircraftScreen\ModifyAircraftScreen\ModifyAircraftScreen.htm
+[Files - Help - DisplayCategoryScreen]
+0=Help\DisplayCategoryScreen\DisplayCategoryScreen.htm
+1=Help\DisplayCategoryScreen\AddNewCategoryScreen.htm
+2=Help\DisplayCategoryScreen\ModifyCategoryScreen.htm
+[Files - Help - DisplayChargeInformationScreen]
+0=Help\DisplayChargeInformationScreen\DisplayChargeInformationScreen.htm
+[Files - Help - DisplayFlightInformationScreen]
+0=Help\DisplayFlightInformationScreen\AddNewFlightScreen.htm
+1=Help\DisplayFlightInformationScreen\ModifyFlightScreen.htm
+2=Help\DisplayFlightInformationScreen\DisplayFlightInformationScreen.htm
+[Files - Help - DisplayInventoryScreen]
+0=Help\DisplayInventoryScreen\ModifyInventoryScreen.htm
+1=Help\DisplayInventoryScreen\DisplayInventoryScreen.htm
+2=Help\DisplayInventoryScreen\AddNewInventoryScreen.htm
+3=Help\DisplayInventoryScreen\SellInventoryScreen.htm
+4=Help\DisplayInventoryScreen\SellInventoryMultipleScreen.htm
+[Files - Help - DisplayMemberChargesScreen]
+0=Help\DisplayMemberChargesScreen\FlightCharges.htm
+1=Help\DisplayMemberChargesScreen\DisplaymemberChargesScreen.htm
+2=Help\DisplayMemberChargesScreen\ChargeSummary.htm
+3=Help\DisplayMemberChargesScreen\AddNewCharge.htm
+4=Help\DisplayMemberChargesScreen\ModifyCharge.htm
+5=Help\DisplayMemberChargesScreen\ItemsPurchased.htm
+[Files - Help - ExportDatabaseInformationScreen]
+0=Help\ExportDatabaseInformationScreen\ExportDatabaseInformationScreen.htm
+[Files - Help - UserManagementScreen]
+0=Help\UserManagementScreen\AddMemberScreen\AddMemberScreen.htm
+1=Help\UserManagementScreen\ModifyMemberScreen\ModifyMemberScreen.htm
+2=Help\UserManagementScreen\UserManagementScreen.htm
+3=Help\UserManagementScreen\AddMemberScreen\CurrencyInformation.htm
+[Files - Help - UserCurrency]
+0=Help\UserCurrencyScreen\UserCurrencyScreen.htm
+[Files - Help - ModifyAircraftMakeModel]
+0=Help\ModifyAircraftMakeModel\ModifyAircraftMakeModel.htm
+[Files - Help - ProgramConfigurationScreen]
+0=Help\ProgramConfigurationScreen\ProgramConfigurationScreen.htm
+[Files - Help - PrintReports]
+0=Help\PrintSanityCheck\PrintSanityCheck.htm
+1=Help\PrintMonthlyBillsReports\PrintMonthlyBillsReports.htm
+2=Help\PrintMemberStatistics\PrintMemberStatistics.htm
+3=Help\PrintMemberInformation\PrintMemberInformation.htm
+4=Help\PrintInventoryInformation\PrintInventoryInformation.htm
+5=Help\PrintDailyDARReport\PrintDailyDARReport.htm
+6=Help\PrintDailyBillsReports\PrintDailyBillsReports.htm
+7=Help\PrintAircraftInformationScreen\PrintAircraftInformationScreen.htm
+8=Help\PrintAircraftFaultRecords\PrintAircraftFaultRecords.htm
+[Files - Help - SafetyMeetingDatesScreen]
+0=Help\SafetyMeetingDatesScreen\SafetyMeetingDatesScreen.htm
+[Files - Help - Admin]
+0=Help\Admin\AdminHelp.php
+[Files - Help - ChangeLoginNotice]
+0=Help\ChangeLoginNotice\ChangeLoginNotice.htm
+[Files - Help - ViewJournalEntries]
+0=Help\ViewJournalEntries\ViewJournalEntries.htm
+[Files - Help - InstructorManagement]
+0=Help\InstructorManagement\InstructorManagement.htm
+1=Help\InstructorManagement\ModifyInstructor\ModifyInstructor.htm
+[Files - Help - LoginScreen]
+0=Help\LoginScreen\LoginScreen.htm
+[Files - Help - MainScreen]
+0=Help\MainScreen\MainScreen.htm
+1=Help\MainScreen\AddEntryScreen\AddEntryScreen.htm
+2=Help\MainScreen\ShowEntryScreen\ShowEntryScreen.htm
+3=Help\MainScreen\WeeklyScheduleScreen\WeeklyScheduleScreen.htm
+4=Help\MainScreen\MonthlyScheduleScreen\MonthlyScheduleScreen.htm
+5=Help\MainScreen\NavigationBar\NavigationBar.htm
+[Files - Help - ReportScreen]
+0=Help\ReportScreen\ReportScreen.htm
+[Files - Help - ChangePassword]
+0=Help\ChangePassword\ChangePassword.htm
+[Files - Help - ChangeUserInformation]
+0=Help\ChangeUserInformation\ChangeUserInformation.htm
+[Files - Help - AircraftCheckoutScreen]
+0=Help\AircraftCheckoutScreen\FlightStatus.htm
+1=Help\AircraftCheckoutScreen\FlightCurrencyFrame.htm
+2=Help\AircraftCheckoutScreen\AircraftDataFrame.htm
+3=Help\AircraftCheckoutScreen\AircraftCheckoutScreen.htm
+4=Help\AircraftCheckoutScreen\WeightBalanceFrame.htm
+[Folders]
+Help - ExportDatabaseInformationScreen=1
+Help - MainScreen=1
+Help - ChangeUserInformation=1
+Help - DisplayAircraftScreen=1
+Help - InstructorManagement=1
+[Open Files]
+Open File0=
+Active File Display Mode=-1

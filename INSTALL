@@ -1,0 +1,36 @@
+Files in the distribution:
+    web                                 Contains the php source files for the scheduler
+    img                                 Contains image files for the scheduler, aircraft 
+                                        and instructors
+    CreateEmptyAircraftSchedule.sql     SQL to create an empty database
+    INSTALL                             this file
+    LICENSE                             GNU GENERAL PUBLIC LICENSE
+
+To Install:
+
+1.  Files in the AircraftScheduling directory are support files. The php files for the scheduling program
+    are in the web directory. All files use a relative path so it should not matter what the directory
+    is called or where it is stored.
+
+2.  The img directory is the directory for the image files for the aircraft. The image new.jpg is 
+    used in the day display to show that a new aircraft may be scheduled. If you are storing the images
+    in another directory, you will have to change the path in the config.inc file.
+    The naming convention for the images:
+
+    Aircraft:  n_number.jpg is a picture of the aircraft from the outside.
+               n_number_panel.jpg is a picture of the instrument panel/interior.
+
+3.  Create Database:  mysqladmin create ScheduleDB (can be any name that you want, just make
+    sure it is the same name in $db_database in SiteSpecific.inc).
+
+4.  Create Tables and load data: mysql ScheduleDB < CreateEmptyAircraftSchedule.sql
+
+5.  Set the login and configuration information for the database in the files config.inc 
+    and SiteSpecific.inc.
+
+6.  Starting file for the scheduler program is index.php.
+
+7.  The new database only has one login and that is the administrator login: admin password: admin. There
+    are no aircraft or instructors created.
+
+8.  Create users and aircraft using the Admin from the toolbar.

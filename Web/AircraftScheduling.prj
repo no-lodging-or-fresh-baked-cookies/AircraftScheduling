@@ -1,0 +1,237 @@
+<NotepadPlus>
+    <Project name="AircraftScheduling">
+        <Folder name="Help">
+            <Folder name="Help - Admin">
+                <File name="Help\Admin\AdminHelp.php" />
+            </Folder>
+            <Folder name="Help - AircraftCheckinScreen">
+                <File name="Help\AircraftCheckinScreen\AircraftCheckinScreen.htm" />
+                <File name="Help\AircraftCheckinScreen\SquawkDataDisplay.htm" />
+                <File name="Help\AircraftCheckinScreen\CheckinInformationFrame.htm" />
+                <File name="Help\AircraftCheckinScreen\AircraftDataFrame.htm" />
+            </Folder>
+            <Folder name="Help - AircraftCheckoutScreen">
+                <File name="Help\AircraftCheckoutScreen\FlightStatus.htm" />
+                <File name="Help\AircraftCheckoutScreen\FlightCurrencyFrame.htm" />
+                <File name="Help\AircraftCheckoutScreen\AircraftDataFrame.htm" />
+                <File name="Help\AircraftCheckoutScreen\AircraftCheckoutScreen.htm" />
+                <File name="Help\AircraftCheckoutScreen\WeightBalanceFrame.htm" />
+            </Folder>
+            <Folder name="Help - ChangePassword">
+                <File name="Help\ChangePassword\ChangePassword.htm" />
+            </Folder>
+            <Folder name="Help - ChangeLoginNotice">
+                <File name="Help\ChangeLoginNotice\ChangeLoginNotice.htm" />
+            </Folder>
+            <Folder name="Help - ChangeUserInformation">
+                <File name="Help\ChangeUserInformation\ChangeUserInformation.htm" />
+            </Folder>
+            <Folder name="Help - DisplayAircraftScreen">
+                <File name="Help\DisplayAircraftScreen\AddAircraftScreen\AircraftSquawkFields.htm" />
+                <File name="Help\DisplayAircraftScreen\AddAircraftScreen\AircraftInformation.htm" />
+                <File name="Help\DisplayAircraftScreen\AddAircraftScreen\AddAircraftScreen.htm" />
+                <File name="Help\DisplayAircraftScreen\AddAircraftScreen\OwnerInformation.htm" />
+                <File name="Help\DisplayAircraftScreen\AddAircraftScreen\FlightPlanInfomation.htm" />
+                <File name="Help\DisplayAircraftScreen\AddAircraftScreen\AircraftWeightBalance.htm" />
+                <File name="Help\DisplayAircraftScreen\DisplayAircraftScreen.htm" />
+                <File name="Help\DisplayAircraftScreen\ModifyAircraftScreen\ModifyAircraftScreen.htm" />
+            </Folder>
+            <Folder name="Help - DisplayCategoryScreen">
+                <File name="Help\DisplayCategoryScreen\DisplayCategoryScreen.htm" />
+                <File name="Help\DisplayCategoryScreen\AddNewCategoryScreen.htm" />
+                <File name="Help\DisplayCategoryScreen\ModifyCategoryScreen.htm" />
+            </Folder>
+            <Folder name="Help - DisplayChargeInformationScreen">
+                <File name="Help\DisplayChargeInformationScreen\DisplayChargeInformationScreen.htm" />
+            </Folder>
+            <Folder name="Help - DisplayFlightInformationScreen">
+                <File name="Help\DisplayFlightInformationScreen\AddNewFlightScreen.htm" />
+                <File name="Help\DisplayFlightInformationScreen\ModifyFlightScreen.htm" />
+                <File name="Help\DisplayFlightInformationScreen\DisplayFlightInformationScreen.htm" />
+            </Folder>
+            <Folder name="Help - DisplayInventoryScreen">
+                <File name="Help\DisplayInventoryScreen\ModifyInventoryScreen.htm" />
+                <File name="Help\DisplayInventoryScreen\DisplayInventoryScreen.htm" />
+                <File name="Help\DisplayInventoryScreen\AddNewInventoryScreen.htm" />
+                <File name="Help\DisplayInventoryScreen\SellInventoryScreen.htm" />
+                <File name="Help\DisplayInventoryScreen\SellInventoryMultipleScreen.htm" />
+            </Folder>
+            <Folder name="Help - DisplayMemberChargesScreen">
+                <File name="Help\DisplayMemberChargesScreen\FlightCharges.htm" />
+                <File name="Help\DisplayMemberChargesScreen\DisplaymemberChargesScreen.htm" />
+                <File name="Help\DisplayMemberChargesScreen\ChargeSummary.htm" />
+                <File name="Help\DisplayMemberChargesScreen\AddNewCharge.htm" />
+                <File name="Help\DisplayMemberChargesScreen\ModifyCharge.htm" />
+                <File name="Help\DisplayMemberChargesScreen\ItemsPurchased.htm" />
+            </Folder>
+            <Folder name="Help - ExportDatabaseInformationScreen">
+                <File name="Help\ExportDatabaseInformationScreen\ExportDatabaseInformationScreen.htm" />
+            </Folder>
+            <Folder name="Help - InstructorManagement">
+                <File name="Help\InstructorManagement\InstructorManagement.htm" />
+                <File name="Help\InstructorManagement\ModifyInstructor\ModifyInstructor.htm" />
+            </Folder>
+            <Folder name="Help - Introduction">
+                <File name="Help\Introduction\Introduction.htm" />
+            </Folder>
+            <Folder name="Help - LoginScreen">
+                <File name="Help\LoginScreen\LoginScreen.htm" />
+            </Folder>
+            <Folder name="Help - MainScreen">
+                <File name="Help\MainScreen\MainScreen.htm" />
+                <File name="Help\MainScreen\AddEntryScreen\AddEntryScreen.htm" />
+                <File name="Help\MainScreen\ShowEntryScreen\ShowEntryScreen.htm" />
+                <File name="Help\MainScreen\WeeklyScheduleScreen\WeeklyScheduleScreen.htm" />
+                <File name="Help\MainScreen\MonthlyScheduleScreen\MonthlyScheduleScreen.htm" />
+                <File name="Help\MainScreen\NavigationBar\NavigationBar.htm" />
+            </Folder>
+            <Folder name="Help - ModifyAircraftMakeModel">
+                <File name="Help\ModifyAircraftMakeModel\ModifyAircraftMakeModel.htm" />
+            </Folder>
+            <Folder name="Help - PrintReports">
+                <File name="Help\PrintSanityCheck\PrintSanityCheck.htm" />
+                <File name="Help\PrintMonthlyBillsReports\PrintMonthlyBillsReports.htm" />
+                <File name="Help\PrintMemberStatistics\PrintMemberStatistics.htm" />
+                <File name="Help\PrintMemberInformation\PrintMemberInformation.htm" />
+                <File name="Help\PrintInventoryInformation\PrintInventoryInformation.htm" />
+                <File name="Help\PrintDailyDARReport\PrintDailyDARReport.htm" />
+                <File name="Help\PrintDailyBillsReports\PrintDailyBillsReports.htm" />
+                <File name="Help\PrintAircraftInformationScreen\PrintAircraftInformationScreen.htm" />
+                <File name="Help\PrintAircraftFaultRecords\PrintAircraftFaultRecords.htm" />
+            </Folder>
+            <Folder name="Help - ProgramConfigurationScreen">
+                <File name="Help\ProgramConfigurationScreen\ProgramConfigurationScreen.htm" />
+            </Folder>
+            <Folder name="Help - ReportScreen">
+                <File name="Help\ReportScreen\ReportScreen.htm" />
+            </Folder>
+            <Folder name="Help - SafetyMeetingDatesScreen">
+                <File name="Help\SafetyMeetingDatesScreen\SafetyMeetingDatesScreen.htm" />
+            </Folder>
+            <Folder name="Help - ViewJournalEntries">
+                <File name="Help\ViewJournalEntries\ViewJournalEntries.htm" />
+            </Folder>
+            <Folder name="Help - UserCurrency">
+                <File name="Help\UserCurrencyScreen\UserCurrencyScreen.htm" />
+            </Folder>
+            <Folder name="Help - UserManagementScreen">
+                <File name="Help\UserManagementScreen\AddMemberScreen\AddMemberScreen.htm" />
+                <File name="Help\UserManagementScreen\ModifyMemberScreen\ModifyMemberScreen.htm" />
+                <File name="Help\UserManagementScreen\UserManagementScreen.htm" />
+                <File name="Help\UserManagementScreen\AddMemberScreen\CurrencyInformation.htm" />
+            </Folder>
+            <File name="Help\TableOfContents.inc" />
+            <File name="DisplayHelpHTML.php" />
+            <File name="help.php" />
+            <File name="Help\site_faq.inc" />
+            <File name="Help\CurrencyRules.htm" />
+            <File name="Help\NewSquawkScreen.htm" />
+            <File name="Help\EditSquawks.htm" />
+            <File name="Help\License.htm" />
+        </Folder>
+        <File name="add_instructor.php" />
+        <File name="add_instructor_handler.php" />
+        <File name="AddModifyAircraft.php" />
+        <File name="AddModifyCategories.php" />
+        <File name="AddModifyCharges.php" />
+        <File name="AddModifyFlights.php" />
+        <File name="AddModifyInventory.php" />
+        <File name="AddModifyMakeModel.php" />
+        <File name="AddModifyMember.php" />
+        <File name="AddModifySquawks.php" />
+        <File name="admin.php" />
+        <File name="adodb-time.inc.php" />
+        <File name="AircraftCheckin.php" />
+        <File name="AircraftCheckout.php" />
+        <File name="AircraftScheduling.css" />
+        <File name="AircraftScheduling_auth.inc" />
+        <File name="AircraftScheduling_config.php" />
+        <File name="AircraftScheduling_sql.inc" />
+        <File name="auth_ext.inc" />
+        <File name="auth_ip.inc" />
+        <File name="auth_ldap.inc" />
+        <File name="auth_nw.inc" />
+        <File name="auth_session.inc" />
+        <File name="calendar.inc" />
+        <File name="change_pass.php" />
+        <File name="change_user_info.php" />
+        <File name="CheckCurrency.php" />
+        <File name="class.phpmailer.php" />
+        <File name="class.smtp.php" />
+        <File name="class.stack.php" />
+        <File name="CombinationLock.php" />
+        <File name="config.inc" />
+        <File name="CurrencyFunctions.inc" />
+        <File name="DatabaseConstants.inc" />
+        <File name="DatabaseFunctions.inc" />
+        <File name="DateFunctions.inc" />
+        <File name="day.php" />
+        <File name="del_entry.php" />
+        <File name="DisplayAircraft.php" />
+        <File name="DisplayAircraftInfo.php" />
+        <File name="DisplayCategories.php" />
+        <File name="DisplayCharges.php" />
+        <File name="DisplayFlights.php" />
+        <File name="DisplayInstructor.php" />
+        <File name="DisplayInstructorInfo.php" />
+        <File name="DisplayInventory.php" />
+        <File name="DisplayManagerMsg.php" />
+        <File name="DisplayMemberCharges.php" />
+        <File name="DisplayMembers.php" />
+        <File name="edit_entry.php" />
+        <File name="edit_entry_handler.php" />
+        <File name="edit_instructor.php" />
+        <File name="edit_notices.php" />
+        <File name="email_pass.php" />
+        <File name="functions.inc" />
+        <File name="GetSafetyMeetingDates.php" />
+        <File name="global_def.inc" />
+        <File name="image.php" />
+        <File name="index.php" />
+        <File name="JAVALib.inc" />
+        <File name="Journal_Report.php" />
+        <File name="lang.de" />
+        <File name="lang.en" />
+        <File name="lang.es" />
+        <File name="lang.fr" />
+        <File name="lang.ja" />
+        <File name="lang.nl" />
+        <File name="lang.sv" />
+        <File name="lang.zh-tw" />
+        <File name="logoff.php" />
+        <File name="logon.php" />
+        <File name="month.php" />
+        <File name="mysql.inc" />
+        <File name="pgsql.inc" />
+        <File name="PopCalendar.php" />
+        <File name="PrintAircraftFaultInformation.php" />
+        <File name="PrintAircraftInformation.php" />
+        <File name="PrintDailyBillingInformation.php" />
+        <File name="PrintDailyDARInformation.php" />
+        <File name="PrintFunctions.inc" />
+        <File name="PrintInventoryInformation.php" />
+        <File name="PrintMemberInformation.php" />
+        <File name="PrintMemberStatistics.php" />
+        <File name="PrintMonthlyBillingInformation.php" />
+        <File name="PrintMonthlySanityCheckInformation.php" />
+        <File name="register.php" />
+        <File name="report.php" />
+        <File name="search.php" />
+        <File name="SellInventory.php" />
+        <File name="SiteSpecific.inc" />
+        <File name="SquawkFrame.php" />
+        <File name="SquawkFunctions.inc" />
+        <File name="StandbyRequest.php" />
+        <File name="StandbyRequestHandler.php" />
+        <File name="StandbyRequestView.php" />
+        <File name="StringFunctions.inc" />
+        <File name="style.inc" />
+        <File name="trailer.inc" />
+        <File name="UserInformation.php" />
+        <File name="view_entry.php" />
+        <File name="week.php" />
+        <File name="SellInventoryMultiple.php" />
+        <File name="SellInventoryFunctions.inc" />
+        <File name="ExportUserData.php" />
+    </Project>
+</NotepadPlus>
