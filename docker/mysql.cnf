@@ -1,0 +1,4 @@
+[mysqld]
+# Relax strict mode for compatibility with legacy schema
+# (some config values exceed their varchar column lengths)
+sql_mode = "NO_ENGINE_SUBSTITUTION"

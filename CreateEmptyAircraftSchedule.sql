@@ -183,7 +183,7 @@ CREATE TABLE `AircraftScheduling_entry` (
   `entry_type` int(11) NOT NULL default '0',
   `repeat_id` int(11) default NULL,
   `resource_id` int(11) default NULL,
-  `timestamp` timestamp(14) NOT NULL,
+  `timestamp` timestamp NOT NULL,
   `create_time` int(11) default NULL,
   `create_by` varchar(25) NOT NULL default '',
   `person_id` int(11) default NULL,
@@ -332,7 +332,7 @@ INSERT INTO `AircraftScheduling_model` VALUES (18, 'M20J', '0.00', '0.00');
 CREATE TABLE `AircraftScheduling_notices` (
   `notice_id` int(11) NOT NULL auto_increment,
   `Notices` text NOT NULL,
-  `timestamp` timestamp(14) NOT NULL,
+  `timestamp` timestamp NOT NULL,
   PRIMARY KEY  (`notice_id`)
 ) ENGINE=InnoDB;
 
@@ -358,7 +358,7 @@ CREATE TABLE `AircraftScheduling_person` (
   `password` varchar(32) NOT NULL default 'hackme',
   `user_level` bigint(20) NOT NULL default '0',
   `counter` int(11) default '0',
-  `last_login` timestamp(14) NOT NULL,
+  `last_login` timestamp NOT NULL,
   `address1` varchar(128) default NULL,
   `address2` varchar(128) default NULL,
   `city` varchar(64) default NULL,
@@ -442,7 +442,7 @@ CREATE TABLE `AircraftScheduling_repeat` (
   `end_date` int(11) NOT NULL default '0',
   `rep_opt` varchar(32) NOT NULL default '',
   `resource_id` int(11) NOT NULL default '1',
-  `timestamp` timestamp(14) NOT NULL,
+  `timestamp` timestamp NOT NULL,
   `create_by` varchar(25) NOT NULL default '',
   `person_id` int(11) default NULL,
   `name` varchar(80) NOT NULL default '',

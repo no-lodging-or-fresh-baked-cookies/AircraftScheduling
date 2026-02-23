@@ -488,9 +488,9 @@ $CurrencyPrefix = "$";
 # Error Reporting
 #############
 # Set the error reporting level
-# for production use: error_reporting(E_ALL & ~E_NOTICE);
+# for production use: error_reporting(E_ALL & ~E_NOTICE & ~E_DEPRECATED);
 # for testing use: error_reporting(E_ALL);
-error_reporting(E_ALL & ~E_NOTICE);
+error_reporting(E_ALL & ~E_NOTICE & ~E_DEPRECATED);
 
 ##########################################
 # image root path
